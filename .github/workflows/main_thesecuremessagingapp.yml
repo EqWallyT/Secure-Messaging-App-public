@@ -72,4 +72,4 @@ jobs:
           app-name: 'TheSecureMessagingApp'
           slot-name: 'Production'
           package: .
-          
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D847D0D82F6545A99719C92B4D618128 }}
