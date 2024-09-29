@@ -5,6 +5,10 @@ $username = "MyMessagingApp";
 $user_pass = "Airgear1234!";
 $database_in_use = "secure_messaging";
 
+<handlers>
+  <add name="PHP-FastCGI" path="*.php" verb="*" modules="FastCgiModule" scriptProcessor="D:\Program Files (x86)\PHP\v8.0\php-cgi.exe" resourceType="Either" />
+</handlers>
+    
 // Create connection
 $conn = new mysqli($host, $username, $user_pass, $database_in_use, $port);
 
@@ -32,3 +36,6 @@ function verifyCsrfToken($token) {
     return hash_equals($_SESSION['csrf_token'], $token);
 }
 ?>
+<handlers>
+  <add name="PHP-FastCGI" path="*.php" verb="*" modules="FastCgiModule" scriptProcessor="D:\Program Files (x86)\PHP\v8.0\php-cgi.exe" resourceType="Either" />
+</handlers>
