@@ -1,5 +1,4 @@
 <?php
-header("Location: login.php");
 session_start();
 
 include 'config.php';
