@@ -5,7 +5,7 @@
     - This word document gives a guide on how a user can operate and go through the secure messaging application
 
 - **2.CST-452 Architecture Plan.docx:** 
-    - This word document goes through the specific Architecture of the application. (The application is suppose to be live through Microsoft azure but we are in the process of trouble shooting that issue)
+    - This word document goes through the specific Architecture of the application. (The application is suppose to be live through Microsoft azure but I am in the process of troubleshooting that issue)
 
 - **3.CST-Project Portfolio:** 
     - This goes through the overview of the project, specific design documentation, and some code snippets of the application, with the link to this github and the video demonstrations and walk through.
