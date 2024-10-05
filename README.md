@@ -2,7 +2,7 @@
 
 This is an application that I created to demonstrate my skills in software development and security measures within the software space. The app is designed for secure communication between users, incorporating a range of security features to protect data and ensure privacy.
 
-## Key Security Features
+## Key Security Implementations
 
 - **AES-128 Encryption**: Messages exchanged between users are encrypted using AES-128, ensuring that communication remains private and secure.
 - **CSRF Tokens**: Implemented for protection against Cross-Site Request Forgery (CSRF) attacks.
